@@ -8,13 +8,13 @@
   /* Base azul ciano */
   --hue: 195;
 
-  --primary-color: hsl(var(--hue), 85%, 55%);
-  --primary-hover: hsl(var(--hue), 85%, 45%);
+  --primary-color: hsl(var(--hue), 85%, 55%);      /* Ciano principal */
+  --primary-hover: hsl(var(--hue), 85%, 45%);      /* Hover mais escuro */
 
   /* Fundos */
-  --secundary-color: hsl(210, 25%, 10%);
-  --bg-color: hsl(210, 30%, 7%);
-  --third-color: hsla(195, 80%, 60%, 0.12);
+  --secundary-color: hsl(210, 25%, 10%);           /* Azul quase preto */
+  --bg-color: hsl(210, 30%, 7%);                   /* Fundo principal */
+  --third-color: hsla(195, 80%, 60%, 0.12);        /* Destaques suaves */
 
   /* Textos */
   --headline: hsl(0, 0%, 100%);
