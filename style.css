@@ -41,7 +41,7 @@ body {
 
   overflow: overlay;
 
-  background-color: var(--primary-color);
+  background-color: var(--bg-color);
 }
 
 body.light-mode {
@@ -112,7 +112,7 @@ section header h2 {
 }
 
 section h3 {
-  color: var(--primary-color);
+  color: var(--headline);
 }
 
 li {
@@ -432,7 +432,7 @@ body.menu-expanded button path {
 
 #home h1 {
   font-size: 4.5rem;
-  color: var(--primary-color);
+  color: var(--headline);
   line-height: 110%;
 
   margin-bottom: 1rem;
@@ -444,7 +444,6 @@ body.menu-expanded button path {
   font-size: 1.8rem;
   line-height: 150%;
   font-weight: bold;
-  color: var(--paragraph);
 
   margin-bottom: 3.2rem;
 }
