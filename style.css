@@ -1077,20 +1077,17 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
    nav#navigation .wrapper * {
     margin: 0;
     padding: 0;
+    visibility: initial;
     display: initial;
     opacity: initial;
     flex-direction: initial;
     position: initial;
     font-size: initial;
     transform: initial;
+    color: initial;
+    background-color: initial;
     font-weight: initial;
     filter: initial;
-  }
-
-  nav#navigation a.logo,
-  footer a.logo {
-    font-size: 4rem;
-    opacity: 0.7;
   }
 
   nav#navigation .close-menu,
@@ -1102,15 +1099,18 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     width: 70%;
+    transform: none;
+    position: static;
+    opacity: 1;
+    visibility: visible;
   }
 
-  nav#navigation .menu ul:nth-child(1) {
+  nav#navigation .menu ul {
     display: flex;
     gap: 1rem;
   }
-
+}
   nav#navigation .menu ul li a {
     color: var(--primary-color);
     opacity: 0.7;
