@@ -1074,7 +1074,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== NAVEGATION ==================================*/
 
   /*Reset*/
-  nav#navigation .wrapper * {
+   nav#navigation .wrapper * {
     margin: 0;
     padding: 0;
     visibility: initial;
@@ -1084,8 +1084,6 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     position: initial;
     font-size: initial;
     transform: initial;
-    color: initial;
-    background-color: initial;
     font-weight: initial;
     filter: initial;
   }
